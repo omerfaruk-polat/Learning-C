@@ -1,12 +1,20 @@
-# 🚀 My Software Development Journey & C Projects
-
 <div align="center">
 
-[![C Language](https://img.shields.io/badge/Language-C-blue.svg)](https://en.wikipedia.org/wiki/C_(programming_language))
-[![Status](https://img.shields.io/badge/Status-Active-success.svg)]()
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# 🚀 My C Programming Journey
 
-*A personal repository created to grasp algorithmic logic, learn fundamental programming principles, and showcase projects built from scratch.*
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=omerfaruk-polat&color=blueviolet&style=flat-square" alt="Profile Views" />
+  <img src="https://img.shields.io/github/stars/omerfaruk-polat/Learning-C?style=flat-square&color=yellow" alt="Repo Stars" />
+  <img src="https://img.shields.io/github/forks/omerfaruk-polat/Learning-C?style=flat-square&color=orange" alt="Repo Forks" />
+</p>
+
+*A curated archive of my core programming logic, algorithmic problem-solving, and projects built from scratch in C.*
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" />
+  <img src="https://img.shields.io/badge/IDE-Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032.svg?style=for-the-badge&logo=git&logoColor=white" />
+</p>
 
 </div>
 
@@ -14,40 +22,38 @@
 
 ## 🎯 Purpose of This Repository
 
-This repository serves as a centralized collection of my early steps in software development, problem-solving skills, and console applications built while learning the core fundamentals of programming (`syntax`, memory handling, loops, data structures, etc.). Each project is designed and developed incrementally from scratch.
+This repository serves as a centralized collection of my early steps in software development. Each project is designed to master fundamental programming principles—such as memory handling, loops, data structures, and syntax—incrementally and from scratch.
 
 ---
 
 ## 📂 Projects Archive
 
-| Project Name | Date | Description | Technologies |
-| :--- | :--- | :--- | :--- |
-| **[01-Console Calculator](./calculator.c)** | 2026-10-10 | A dynamic console-based calculator that handles multiple operands, operator selection, robust input validation, and continuous execution. | C (Standard IO, Loops, Functions, Arrays) |
+| Project Name | Date | Description | Tech Stack |
+| :--- | :---: | :--- | :--- |
+| **[01-Console Calculator](./calculator.c)** | `2026-10-10` | Dynamic console calculator supporting multiple operands, operator selection, robust input validation, and continuous execution. | `C`, `Standard IO`, `Arrays` |
 
-*(This list will be continuously updated as new projects are added!)*
-
----
-
-## 💡 Key Learnings & Notes (Latest Project: Console Calculator)
-
-* **Arrays & Indexing:** Utilizing fixed-size arrays (`float numbers[100]`) and managing indices properly with user-defined counts (`count_of`).
-* **Modular Functions:** Breaking down the program into independent functions (`veri_al`, `get_numbers`, `do_math`) for cleaner architecture and separation of concerns.
-* **Input Validation & Buffer Management:** Validating `scanf` return values and clearing the input buffer (`while (getchar() != '\n');`) to prevent infinite loops on invalid inputs.
-* **Control Flow:** Implementing continuous application loops (`while(1)`) combined with state resets for multiple calculations.
+*(This list will be continuously updated as new milestones are reached!)*
 
 ---
 
-## 🛠️ Technologies & Tools
+## 💡 Key Learnings & Notes
 
-* **Programming Language:** C
-* **Development Environment (IDE):** Visual Studio / VS Code
-* **Version Control:** Git & GitHub
+<details>
+<summary><b>Click to expand latest learnings (Console Calculator)</b></summary>
+
+* **Arrays & Indexing:** Managing fixed-size memory blocks (`float numbers[100]`) dynamically mapped via user-defined counters (`count_of`).
+* **Modular Architecture:** Separating responsibilities into distinct functions (`veri_al`, `get_numbers`, `do_math`) for clean code maintenance.
+* **Input Validation & Buffer Hygiene:** Checking `scanf` return states and safely clearing input buffers (`while (getchar() != '\n');`) to prevent infinite loops.
+* **State Management:** Utilizing continuous application loops (`while(1)`) with proper state resetting for iterative use.
+
+</details>
 
 ---
 
-## ⚙️ How to Run the Projects
+## ⚙️ How to Run Locally
 
-To compile and run any C project in this repository locally:
+<details>
+<summary><b>Click to view installation steps</b></summary>
 
 1. Clone the repository:
    ```bash
